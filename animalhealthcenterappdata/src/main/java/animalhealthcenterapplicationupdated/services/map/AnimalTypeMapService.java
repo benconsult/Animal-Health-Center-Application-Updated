@@ -14,6 +14,11 @@ public class AnimalTypeMapService extends AbstractMapService<AnimalType, Long> i
     }
 
     @Override
+    public void delete(AnimalType object) {
+        super.delete(object);
+    }
+
+    @Override
     public void deleteById(Long id) {
      super.deleteBYId(id);
     }
