@@ -22,5 +22,5 @@ public class AnimalType extends BaseEntity {
     @Override
     public String toString() {
         return name;
-    }//
+    }
 }
